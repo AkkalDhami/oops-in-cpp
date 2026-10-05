@@ -1,0 +1,64 @@
+# ---- Compiled binaries (root and any directory depth) ----
+*.exe
+*.exe.*
+*.out
+*.app
+
+# ---- Object / library / module files ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.manifest
+*.res
+
+# ---- CMake / build systems ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+out/
+Makefile
+*.mk
+compile_commands.json
+CMakeUserPresets.json
+
+# ---- MSVC / Visual Studio ----
+.vs/
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters.user
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.aps
+
+# ---- Logs, temp and crash dumps ----
+*.log
+*.tmp
+*.bak
+core
+core.*
+vgcore.*
+*.stackdump
+
+# ---- OS / editor noise ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+*.swp

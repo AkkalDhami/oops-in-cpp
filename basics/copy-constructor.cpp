@@ -9,9 +9,6 @@
 //? Why const?
 //* The copy constructor shouldn't modify the object being copied.
 
-//? Rule of Three
-//* If a class has a pointer member, it must have a copy constructor, a destructor, and an assignment operator.
-
 #include <iostream>
 using namespace std;
 

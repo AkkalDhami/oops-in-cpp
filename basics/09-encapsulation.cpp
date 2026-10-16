@@ -9,6 +9,7 @@ private:
   double balance; //* Hidden from outside the class
 
 public:
+  //* Setter
   void setBalance(double amount)
   {
     if (amount >= 0)
@@ -17,6 +18,7 @@ public:
     }
   }
 
+  //* Getter
   double getBalance()
   {
     return balance;
